@@ -55,7 +55,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    allKontentItemTag(filter: {preferred_language: {eq: "en-US"}}) {
+    allKontentItemTag(filter: {preferred_language: {eq: "default"}}) {
       nodes {
         elements {
           title {

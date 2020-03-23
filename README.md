@@ -60,11 +60,11 @@ Install this starter (assuming Gatsby is installed) by running from your CLI:
 
 1. Create a free project in app.kontent.ai
 1. Get a [projectId](https://docs.kontent.ai/reference/management-api-v2#section/Authentication) and a [CM API key](https://docs.kontent.ai/reference/management-api-v2#section/Authentication) of the newly created (target) project
-1. [Rename Default language's codename](https://docs.kontent.ai/tutorials/set-up-projects/set-up-languages/adding-languages) to `en-US` and add a new language with `cs-CZ` codename
+1. [Rename Default language's codename](https://docs.kontent.ai/tutorials/set-up-projects/set-up-languages/adding-languages) to `default` and add a new language with `cs-CZ` codename
 
 #### Import sample data and content structure from the source project into your project using Template Manager (web UI)
 3. Go to Kontent [Template Manager](https://kentico.github.io/kontent-template-manager/) and enter copied `projectId` and `CM API key` into *Target Project* section
-3. Into *Source Project* section copy `00676a8d-358c-0084-f2f2-33ed466c480a` projectId and `en-US` and `cs-CZ` language codenames
+3. Into *Source Project* section copy `00676a8d-358c-0084-f2f2-33ed466c480a` projectId and `default` and `cs-CZ` language codenames
 3. Click on `Prepare import data`
 3. Click on `Proceed with import`
 3. Use target `projectId` in the `gatsby-config.json`

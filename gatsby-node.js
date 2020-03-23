@@ -14,7 +14,7 @@ exports.createPages = ({ graphql, actions }) => {
 
     graphql(`
     {
-      allKontentItemCategory(filter: {preferred_language: {eq: "en-US"}}) {
+      allKontentItemCategory(filter: {preferred_language: {eq: "default"}}) {
         nodes {
           system {
             codename
@@ -29,7 +29,7 @@ exports.createPages = ({ graphql, actions }) => {
           }
         }
       }
-      allKontentItemTag(filter: {preferred_language: {eq: "en-US"}}) {
+      allKontentItemTag(filter: {preferred_language: {eq: "default"}}) {
         nodes {
           system {
             codename
@@ -44,7 +44,7 @@ exports.createPages = ({ graphql, actions }) => {
           }
         }
       }
-      allKontentItemPage(filter: {preferred_language: {eq: "en-US"}}) {
+      allKontentItemPage(filter: {preferred_language: {eq: "default"}}) {
         nodes {
           elements {
             description {
@@ -59,7 +59,7 @@ exports.createPages = ({ graphql, actions }) => {
           }
         }
       }
-      allKontentItemArticle(filter: {preferred_language: {eq: "en-US"}}) {
+      allKontentItemArticle(filter: {preferred_language: {eq: "default"}}) {
         nodes {
           elements {
             category {
